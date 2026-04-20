@@ -197,8 +197,8 @@ layers:
   - LEFT
   - DOWN
   - UP
-  - RIGHT
-  - ''
+  - L Click
+  - R Click
   - ''
   - GUI
   - PgDn

@@ -9,7 +9,6 @@
 };
 
 &trackball {
-    automouse-layer = <3>;
     scroll-layers = <3>;
 
     // arrows {
@@ -65,6 +64,14 @@
         };
     };
 
+    behaviors {
+        encoder_scroll: encoder_scroll {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            #sensor-binding-cells = <2>;
+            bindings = <&msc>, <&msc>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -76,7 +83,7 @@
 &kp LCTRL  &kp LEFT_ALT  &kp BACKSPACE  &lt 4 SPACE  &kp LEFT_SHIFT  &lt 2 TAB  &kp BACKSPACE  &lt 1 ENTER                             &kp LEFT_GUI
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&encoder_scroll SCRL_UP SCRL_DOWN>;
         };
 
         NUM {
@@ -111,7 +118,7 @@
         NAV {
             bindings = <
 &kp ESCAPE  &kp LEFT_CONTROL  &kp END      &kp LEFT_ARROW  &kp RIGHT_ARROW                         &kp HOME        &kp A           &kp UP_ARROW    &kp HOME         &kp END
-&kp HOME    &kp LEFT_SHIFT    &kp PAGE_UP  &none           &none            &none      &none       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &none
+&kp HOME    &kp LEFT_SHIFT    &kp PAGE_UP  &mkp LCLK       &mkp RCLK        &none      &none       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &mkp LCLK        &mkp RCLK
 &none       &kp LEFT_GUI      &kp PAGE_DOWN &none          &none            &none      &none       &kp LEFT_ARROW  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &none
 &none       &none             &none        &none           &none            &none             &kp LC(UP_ARROW)  &kp LC(SPACE)                           &none
             >;
