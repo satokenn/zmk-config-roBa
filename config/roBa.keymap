@@ -89,8 +89,8 @@
         NUM {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                         &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0
-&kp SEMICOLON  &kp SEMICOLON  &kp SQT       &kp SQT       &kp GRAVE  &trans      &kp NUMBER_8  &kp MINUS     &kp SLASH     &kp LEFT_BRACE   &kp RIGHT_BRACE  &trans
-&kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp GRAVE  &trans      &kp SLASH     &kp MINUS     &kp BACKSLASH &kp LEFT_BRACE   &kp RIGHT_BRACE  &trans
+&kp SEMICOLON  &kp SEMICOLON  &kp SQT       &kp SQT       &kp GRAVE  &trans      &kp NUMBER_8  &kp MINUS     &kp SLASH     &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans
+&kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp GRAVE  &trans      &kp SLASH     &kp MINUS     &kp BACKSLASH &kp SEMICOLON    &kp SQT           &trans
 &trans         &trans         &trans         &trans         &trans      &trans      &trans         &trans                                                     &trans
             >;
         };
