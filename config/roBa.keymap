@@ -119,7 +119,7 @@
             bindings = <
 &kp ESCAPE  &kp LEFT_CONTROL  &kp END      &kp LEFT_ARROW  &kp RIGHT_ARROW                         &kp HOME        &kp A           &kp UP_ARROW    &kp HOME         &kp END
 &kp HOME    &kp LEFT_SHIFT    &kp PAGE_UP  &mkp LCLK       &mkp RCLK        &trans      &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &mkp LCLK        &mkp RCLK
-&trans       &kp LEFT_GUI      &kp PAGE_DOWN &trans          &trans            &trans      &trans       &kp LEFT_ARROW  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans
+&trans       &kp LEFT_GUI      &kp PAGE_DOWN &trans          &trans            &trans      &trans       &kp LEFT_ARROW  &msc SCRL_DOWN  &msc SCRL_UP    &kp RIGHT_ARROW  &trans
 &trans       &trans             &trans        &trans           &trans            &trans             &kp LC(UP_ARROW)  &kp LC(SPACE)                           &trans
             >;
 

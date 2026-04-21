@@ -190,8 +190,8 @@ layers:
   - Home
   - Shft
   - PgUp
-  - ''
-  - ''
+  - L Click
+  - R Click
   - ''
   - ''
   - LEFT
@@ -207,8 +207,8 @@ layers:
   - ''
   - ''
   - LEFT
-  - LEFT
-  - UP
+  - Scroll Down
+  - Scroll Up
   - RIGHT
   - ''
   - ''
