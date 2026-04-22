@@ -197,7 +197,7 @@ layers:
   - LEFT
   - DOWN
   - UP
-  - L Click
+  - RIGHT
   - R Click
   - ''
   - GUI
